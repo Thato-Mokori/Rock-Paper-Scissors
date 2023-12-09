@@ -37,7 +37,7 @@ function draw(userChoice, computerChoice) {
   tieScore_span.innerHTML = tieScore;
   userScore_span.innerHTML = userScore;
   computerScore_span.innerHTML = computerScore;
-  result_div.innerHTML = `${userChoice} is equal ${computerChoice}. It's a tie.`
+  result_div.innerHTML = `${userChoice} is equal to ${computerChoice}. It's a tie.`
 }
 
 function game(userChoice) {
